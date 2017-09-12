@@ -2339,7 +2339,7 @@
 
 		}
 
-/* Ratungs */
+/* Ratings */
 
 	.ratings {
 		margin: 0 0 2em 0;
@@ -2954,6 +2954,7 @@
 		.image.fit {
 			display: block;
 			width: 100%;
+
 		}
 
 			.image.fit img {
@@ -2969,6 +2970,11 @@
 			.image.main img {
 				width: 100%;
 			}
+
+		.image.profile {
+			height: 500px;
+			overflow: hidden;
+		}
 
 		@media screen and (max-width: 980px) {
 
@@ -4084,7 +4090,8 @@
 			}
 
 				#header > nav > ul > li {
-					margin-left: 2.25em;
+					margin-right: 1em;
+					margin-left: 1em;
 					padding: 0;
 				}
 
